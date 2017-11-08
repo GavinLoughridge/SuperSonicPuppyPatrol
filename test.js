@@ -1,4 +1,4 @@
-const expect = require('chai').expect;
+const expect = require('chai').expect
 const SSPP = require('../sspp');
 
 describe("report lost dog", function () {
@@ -16,3 +16,8 @@ describe("get last", function () {
      expect(getLostDogsList('dogName', 'search')).to.be.an('array');
   })
 });
+
+module.exports = {
+  reportLostDog: reportLostDog,
+  getLostDogsList: getLostDogsList
+}

@@ -1,3 +1,10 @@
+(function() {
+
+'use strict';
+
+//let input = $('#search');
+//let button = $(':button');
+
 const dogArray = [];
 
 function reportLostDog(dog, phone, seen, size, color) {
@@ -16,7 +23,11 @@ function getLostDogsList(dogName, search) {
 }
 
 
+
+
 module.exports = {
   reportLostDog: reportLostDog,
   getLostDogsList: getLostDogsList
 }
+
+})();

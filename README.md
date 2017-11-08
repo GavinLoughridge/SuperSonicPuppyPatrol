@@ -5,4 +5,4 @@ Requierments:
 - a user can get a list of all dog with a given: color, size, last seen zip code
 
 
-![alt text](https://gph.is/21SlMpp)
+![alt text](https://media.giphy.com/media/3boPPdHk2ueo8/giphy.gif)

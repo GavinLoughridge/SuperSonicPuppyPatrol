@@ -1,6 +1,7 @@
 # SuperSonicPuppyPatrol
 
 Requierments:
+
 a user can add basic info about a lost dog including: dog name, owner phone number, dog color, zip code last seen, dog size (small/med/large)
 
 - a user can call a "reportLostDog" function and pass it

@@ -16,3 +16,8 @@ describe("get last", function () {
      expect(getLostDogsList('dogName', 'search')).to.be.an('array');
   })
 });
+
+module.exports = {
+  reportLostDog: reportLostDog,
+  getLostDogsList: getLostDogsList
+}

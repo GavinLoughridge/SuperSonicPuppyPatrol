@@ -3,7 +3,7 @@ const SSPP = require('./sspp.js');
 
 describe("report lost dog", function () {
   it("returns an object", function () {
-   expect(SSPP.reportLostDog('name', '1111111111', '11111', 'size', 'color')).to.be.an('array');
+   expect(SSPP.reportLostDog('name', '1111111111', '11111', 'size', 'color')).to.be.an('object');
   });
 
   it("has the right keys", function() {

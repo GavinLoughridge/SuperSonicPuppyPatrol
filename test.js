@@ -13,6 +13,6 @@ describe("report lost dog", function () {
 
 describe("get last", function () {
   it("return an array", function () {
-     expect(getLostDogsList('dogName', 'search')).to.be.an('array');
+     expect(SSPP.getLostDogsList('dogName', 'search')).to.be.an('array');
   })
 });

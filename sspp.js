@@ -11,8 +11,8 @@ function reportLostDog(dog, phone, seen, size, color) {
   return obj;
 }
 
-function getLostDogsList() {
-
+function getLostDogsList(dogName, search) {
+  return dogArray;
 }
 
 

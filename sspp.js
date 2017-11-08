@@ -11,6 +11,10 @@ function reportLostDog(dog, phone, seen, size, color) {
   return dogArray;
 }
 
+function getLostDogsList() {
+  
+}
+
 
 module.exports = {
   reportLostDog: reportLostDog,

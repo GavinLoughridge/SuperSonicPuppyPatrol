@@ -1,0 +1,25 @@
+{
+  "name": "supersonicpuppypatrol",
+  "version": "1.0.0",
+  "description": "Requierments:",
+  "main": "sspp.js",
+  "dependencies": {
+    "chai": "^4.1.2"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GavinLoughridge/SuperSonicPuppyPatrol.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GavinLoughridge/SuperSonicPuppyPatrol/issues"
+  },
+  "homepage": "https://github.com/GavinLoughridge/SuperSonicPuppyPatrol#readme"
+}

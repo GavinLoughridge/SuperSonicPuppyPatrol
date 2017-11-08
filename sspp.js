@@ -8,6 +8,10 @@ function reportLostDog(dog, phone, seen, size, color) {
   obj.dogSize = size;
   obj.dogColor = color;
   dogArray.push(obj);
+  return obj;
+}
+
+function getLostDogsList(dogName, search) {
   return dogArray;
 }
 

@@ -9,4 +9,10 @@ describe("report lost dog", function () {
   it("has the right keys", function() {
      expect(SSPP.reportLostDog('name', '1111111111', '11111', 'size', 'color')).to.have.all.keys('dogName', 'ownerPhone', 'zipSeen', 'dogSize', 'dogColor');
    });
-})
+});
+
+describe("get last", function () {
+  it("return an array", function () {
+     expect(getLostDogsList('dogName', 'search')).to.be.an('array');
+  })
+});
